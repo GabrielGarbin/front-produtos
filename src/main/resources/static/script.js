@@ -5,7 +5,7 @@ const produtoForm = document.getElementById('produtoForm');
 const produtosList = document.getElementById('produtosList');
 // ... todo o resto do seu código JavaScript
 // Atividade 16: URL relativa (o front e a API respondem no mesmo endereço)
-const API_BASE_URL = '/produtos';
+const API_BASE_URL = 'https://front-produtos.onrender.com/produtos';
 
 // Elementos DOM
 const loading = document.getElementById('loading');
