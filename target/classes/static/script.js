@@ -1,9 +1,13 @@
+// script.js - Modifique a URL da API para ser relativa
+constAPI_BASE_URL = '/produtos'; // Agora é relativa
+// O resto do código permanece igual...
+const produtoForm = document.getElementById('produtoForm');
+const produtosList = document.getElementById('produtosList');
+// ... todo o resto do seu código JavaScript
 // Atividade 16: URL relativa (o front e a API respondem no mesmo endereço)
 const API_BASE_URL = '/produtos';
 
 // Elementos DOM
-const produtoForm = document.getElementById('produtoForm');
-const produtosList = document.getElementById('produtosList');
 const loading = document.getElementById('loading');
 const searchInput = document.getElementById('searchInput');
 const btnCancelar = document.getElementById('btnCancelar');
